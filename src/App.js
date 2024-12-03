@@ -30,6 +30,10 @@ const App = () => {
   ];
 
   const validCombinations = [
+    [3, 0, 2]
+  ];
+
+  /*const validCombinations = [
     [0, 5, 4],  
     [1, 3, 7],  
     [2, 6, 8],  
@@ -50,7 +54,7 @@ const App = () => {
     [2, 4, 7],  
     [0, 5, 7],  
     [2, 3, 6]
-  ];
+  ];*/
   
 
   const handleSelectImage = (image, index) => {
