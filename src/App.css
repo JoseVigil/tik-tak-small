@@ -1,0 +1,169 @@
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+.rectangular-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  /**border: 1px solid grey;  **/
+  border-radius: 2px;
+}
+
+.title-text {
+  font-size: 16px;
+  color: gray;
+}
+
+.cup-text {
+  font-size: 40px;  
+}
+
+
+.selected-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected-image {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.selected-image.small {
+  width: 20px;
+  height: 20px;
+}
+
+.grilla {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.grilla-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.image-item {
+  margin: 10px;
+}
+
+.image-button {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+
+.image-button:hover {
+  transform: scale(1.1);
+}
+
+.message {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.reset-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.reset-button.green {
+  background-color: green;
+}
+
+.reset-button.red {
+  background-color: red;
+}
+
+.reset-button:hover {
+  background-color: #45a049;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/* Contenedor de la grilla 3x3 */
+.grilla-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+  grid-gap: 10px; /* Espaciado entre imágenes */
+  justify-content: center; /* Centrado horizontal */
+  margin-top: 20px; /* Espaciado superior */
+  width: 300px; /* Ancho fijo */
+  margin-left: auto;
+  margin-right: auto; /* Centrado */
+}
+
+/* Cada item de la grilla 3x3 */
+.image-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo para las imágenes */
+.image-button {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+
+/* Estilo de las imágenes dentro del rectángulo */
+.selected-image {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
+
+/* Resultados finales */
+.message {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Resultados finales - botones */
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.success-button {
+  background-color: green;
+  color: white;
+}
+
+.failure-button {
+  background-color: red;
+  color: white;
+}
