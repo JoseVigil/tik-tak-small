@@ -3,58 +3,41 @@ import './App.css';
 
 const App = () => {
   const [selectedImages, setSelectedImages] = useState([]);
-  const [screen, setScreen] = useState(1); // Pantalla actual (1, 2 o 3)
+  const [screen, setScreen] = useState(1); 
   const [successfulCombination, setSuccessfulCombination] = useState(null);
-  const [gameOver, setGameOver] = useState(false); // Variable para manejar el fin del juego
-  const [imageSize, setImageSize] = useState("normal"); // Estado para manejar el tamaño de las imágenes
-  const [isPaused, setIsPaused] = useState(false); // Pausa antes de mostrar el resultado
-  const [showResult, setShowResult] = useState(false); // Para controlar la visualización del resultado
+  const [gameOver, setGameOver] = useState(false); 
+  const [imageSize, setImageSize] = useState("normal"); 
+  const [isPaused, setIsPaused] = useState(false); 
+  const [showResult, setShowResult] = useState(false); 
 
-  // Nuevos arrays con imágenes reorganizadas
+  
   const imagesGrilla1 = [
-    'circle.png', 'square.png', 'triangle.png', 
-    'star.png', 'spiral.png', 'crooked_rectangle.png',
-    'diamond.png', 'ellipse.png', 'shine_star.png'
+    'circle.png', 'diamond.png', 'heart.png', 
+    'hexagon.png', 'pentagon.png', 'rectangle.png',
+    'star.png', 'triangle.png', 'square.png'
   ];
 
   const imagesGrilla2 = [
-    'horse.png', 'rabbit.png', 'pig.png',
-    'turkey.png', 'duck.png', 'dog.png',
-    'cow.png', 'cat.png', 'rooster.png'
+    'bird.png', 'cat.png', 'cow.png',
+    'dog.png', 'fish.png', 'horse.png',
+    'pig.png', 'rabbit.png', 'sheep.png'
   ];
 
   const imagesGrilla3 = [
-    'plane.png', 'ball.png', 'cup.png', 
-    'house.png', 'shoe.png', 'umbrella.png',
-    'car.png', 'byke.png', 'hat.png'
-  ];
-
-  const validCombinations = [
-    [3, 0, 2]
+    'ball.png', 'baloon.png', 'book.png', 
+    'car.png', 'chair.png', 'flower.png',
+    'house.png', 'plane.png', 'tree.png'
   ];
 
   /*const validCombinations = [
-    [0, 5, 4],  
-    [1, 3, 7],  
-    [2, 6, 8],  
+    [3, 0, 2]
+  ];*/
+
+  const validCombinations = [    
     [0, 1, 2],  
     [3, 4, 5],  
-    [6, 7, 8],  
-    [0, 3, 6],  
-    [1, 4, 7],  
-    [2, 5, 8],  
-    [0, 4, 8],  
-    [2, 4, 6],  
-    [0, 1, 5],  
-    [1, 2, 6],  
-    [3, 4, 7],  
-    [4, 5, 6],  
-    [5, 7, 8],  
-    [1, 3, 8],  
-    [2, 4, 7],  
-    [0, 5, 7],  
-    [2, 3, 6]
-  ];*/
+    [6, 7, 8]
+  ];
   
 
   const handleSelectImage = (image, index) => {
