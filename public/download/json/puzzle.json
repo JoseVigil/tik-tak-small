@@ -1,0 +1,20 @@
+{
+      "_id": "99E5e6KJwhVtLvs",
+      "name": "Puzzle One",
+      "image": "https://i.imghippo.com/files/ZWWn9232qE.png",
+      "code": "abc123",
+      "images": [
+        {
+          "name": "circle",
+          "image": "https://i.imghippo.com/files/tOl5074trY.png"
+        },
+        {
+          "name": "cat",
+          "image": "https://i.imghippo.com/files/hXrQ7018DxA.png"
+        },
+        {
+          "name": "book",
+          "image": "https://i.imghippo.com/files/gztI4090GG.png"
+        }
+      ]
+    }

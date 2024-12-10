@@ -1,0 +1,16 @@
+{
+    "routes": [
+      {
+        "src": "/download/fonts/(.*)",
+        "dest": "/download/fonts/$1"
+      },
+      {
+        "src": "/download/images/(.*)",
+        "dest": "/download/images/$1"
+      },
+      {
+        "src": "/download/json/(.*)",
+        "dest": "/download/json/$1"
+      }
+    ]
+  }

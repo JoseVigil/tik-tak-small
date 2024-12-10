@@ -1,0 +1,101 @@
+{
+      "_id": "8WYFmc4nKjdQXjJ",
+      "name": "My First Preset",
+      "description": "This is a test preset for video editing",
+      "thumbnail": "https://i.imghippo.com/files/oCi7270x.png",
+      "video_size": {
+        "_id": 1,
+        "aspectRatio": "16:9",
+        "disposition": "landscape",
+        "resolution": "1920x1080",
+        "use": "presentation"
+      },
+      "video_texts": [
+        {
+          "_id": "dCNLdPf8ARQCCsJ",
+          "type": "title",
+          "font": "Times New Roman",
+          "fontName": "Times New Roman Bold",
+          "fontSize": 36,
+          "primaryColour": "#0000FF",
+          "secondaryColour": "#FFFF00",
+          "outlineColour": "#000000",
+          "backColour": "#FFFFFF",
+          "bold": 1,
+          "italic": 1,
+          "underline": 0,
+          "strikeOut": 0,
+          "scaleX": 120,
+          "scaleY": 120,
+          "spacing": 5,
+          "angle": 0,
+          "borderStyle": "none",
+          "outline": 2,
+          "shadow": 1,
+          "alignment": "center",
+          "marginL": 20,
+          "marginR": 20,
+          "marginV": 30,
+          "video_font": {
+            "_id": "6rfuCZom2MIX5p8",
+            "name": "Futura",
+            "url": "https://filebin.net/vo0otx3wqv113yqf/futura.ttf",
+            "file": "futura.ttf"
+          }
+        },
+        {
+          "_id": "zx1Dh5nVGccBh1t",
+          "type": "transcription",
+          "font": "Arial",
+          "fontName": "Arial Bold",
+          "fontSize": 18,
+          "primaryColour": "#FF0000",
+          "secondaryColour": "#00FF00",
+          "outlineColour": "#FFFFFF",
+          "backColour": "#000000",
+          "bold": 0,
+          "italic": 0,
+          "underline": 1,
+          "strikeOut": 0,
+          "scaleX": 100,
+          "scaleY": 100,
+          "spacing": 2,
+          "angle": 15,
+          "borderStyle": "solid",
+          "outline": 1,
+          "shadow": 0,
+          "alignment": "left",
+          "marginL": 10,
+          "marginR": 10,
+          "marginV": 20,
+          "video_font": {
+            "_id": "WXyVzPHzx7r1gkZ",
+            "name": "Consola",
+            "url": "https://filebin.net/vo0otx3wqv113yqf/consola.ttf",
+            "file": "consola.ttf"
+          }
+        }
+      ],
+      "video_images": [
+        {
+          "_id": "zx1Dh5nVGccBh1t",
+          "width": 200,
+          "height": 100,
+          "x": 50,
+          "y": 50,
+          "url": "https://i.imghippo.com/files/QxRd9137Y.png",
+          "path": "/images/logo.jpg",
+          "type": "logo"
+        },
+        {
+          "_id": "zx1Dh5nVGccBh1t",
+          "width": 1920,
+          "height": 100,
+          "x": 0,
+          "y": 980,
+          "url": "https://i.imghippo.com/files/SGo1979zCs.png",
+          "path": "/images/footer.jpg",
+          "type": "footer"
+        }
+      ]
+    }
