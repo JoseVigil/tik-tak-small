@@ -10,7 +10,6 @@ const App = () => {
   const [isPaused, setIsPaused] = useState(false); 
   const [showResult, setShowResult] = useState(false); 
 
-  
   const imagesGrilla1 = [
     'circle.png', 'diamond.png', 'heart.png', 
     'hexagon.png', 'pentagon.png', 'rectangle.png',
@@ -29,16 +28,11 @@ const App = () => {
     'house.png', 'plane.png', 'tree.png'
   ];
 
-  /*const validCombinations = [
-    [3, 0, 2]
-  ];*/
-
   const validCombinations = [    
     [0, 1, 2],  
     [3, 4, 5],  
     [6, 7, 8]
   ];
-  
 
   const handleSelectImage = (image, index) => {
     const newSelectedImages = [...selectedImages, { image, index }];
@@ -69,33 +63,30 @@ const App = () => {
 
   useEffect(() => {
     if (gameOver) {
-      //setImageSize("small"); // Reducir el tamaño de las imágenes seleccionadas al agregar la tercera imagen
-      setIsPaused(true); // Iniciar la pausa antes de mostrar el resultado
+      setIsPaused(true); 
 
-      // Pausar antes de mostrar el resultado
       setTimeout(() => {
         setIsPaused(false);
-        setShowResult(true); // Mostrar el resultado después de la pausa
-      }, 1000); // 1 segundo de pausa
+        setShowResult(true); 
+      }, 1000);
     }
   }, [gameOver]);
 
   const resetGame = () => {
-    // Resetear todo el estado para comenzar el juego nuevamente
     setSelectedImages([]);
     setScreen(1);
     setSuccessfulCombination(null);
     setGameOver(false);
     setImageSize("normal");
     setIsPaused(false);
-    setShowResult(false); // Resetear el resultado
+    setShowResult(false); 
   };
 
   const renderGrilla = (grilla, grillaNumber) => {
     return grilla.map((image, index) => (
       <div key={index} className="image-item">
         <img
-          src={`./images/${image}`}
+          src={`./download/images/${image}`} // Cambio aquí para la nueva ruta
           alt={image}
           onClick={() => handleSelectImage(image, index)}
           className="image-button"
@@ -106,33 +97,36 @@ const App = () => {
 
   return (
     <div className="game-container">
-      {/* Si el juego ha terminado, eliminamos el rectángulo gris y mostramos las imágenes seleccionadas */}
       {gameOver ? (
         <>
           <div className="grilla">
             <div className="grilla-row">
-              {/* Pausa de 1 segundo y mostramos las imágenes centradas */}              
-              {/* Pausa de 1 segundo y mostramos las imágenes centradas */}
               {isPaused ? (
                 <div>
-                  {/* Mostrar rectángulo con las imágenes seleccionadas */}
                   <div className="rectangular-container">
                     {selectedImages.map((item, index) => (
-                      <img
-                        key={index}
-                        src={`./images/${item.image}`}
-                        alt={item.image}
-                        className={`selected-image`}
-                      />
+                      <div key={index} className="image-item">
+                        <img
+                          key={index}
+                          src={`./download/images/${item.image}`} // Cambio aquí para la nueva ruta
+                          alt={item.image}
+                          className="selected-image"
+                        />
+                        <a 
+                          href={`./download/images/${item.image}`} 
+                          download
+                          className="download-link"
+                        >
+                          Descargar
+                        </a>
+                      </div>
                     ))}
                   </div>
-
-                  {/* Mostrar la grilla de 3x3 junto al rectángulo durante la pausa */}
                   <div className="grilla-container">
                     {imagesGrilla3.map((image, index) => (
                       <div key={index} className="image-item">
                         <img
-                          src={`./images/${image}`}
+                          src={`./download/images/${image}`} // Cambio aquí para la nueva ruta
                           alt={image}
                           className="image-button"
                         />
@@ -141,22 +135,26 @@ const App = () => {
                   </div>
                 </div>
               ) : (
-                // Aquí mostramos el resultado después de la pausa de 1 segundo
                 <div className="result-container">
                   <div className="grilla-container">
-                    {/* Mostrar las imágenes seleccionadas en la fila de 3x1 */}
                     {selectedImages.map((item, index) => (
                       <div key={index} className="image-item">
                         <img
-                          src={`./images/${item.image}`}
+                          src={`./download/images/${item.image}`} // Cambio aquí para la nueva ruta
                           alt={item.image}
                           className="image-button"
                         />
+                        <a 
+                          href={`./download/images/${item.image}`} 
+                          download
+                          className="download-link"
+                        >
+                          Descargar
+                        </a>
                       </div>
                     ))}
                   </div>
 
-                  {/* Mostrar el mensaje de éxito o fracaso */}
                   <div className="message">
                     {successfulCombination ? (
                       <h2>¡Combinación exitosa!</h2>
@@ -164,7 +162,6 @@ const App = () => {
                       <h2>Combinación incorrecta</h2>
                     )}
 
-                    {/* Botón de resultado */}
                     <button
                       className={successfulCombination ? 'success-button' : 'failure-button'}
                       onClick={resetGame}
@@ -174,13 +171,11 @@ const App = () => {
                   </div>
                 </div>
               )}
-
             </div>
           </div>
         </>
       ) : (
         <>
-          {/* Contenedor gris alrededor del texto y la grilla 3x1 */}
           <div className="rectangular-container">
             {screen === 1 && !gameOver && (
               <div className="title">
@@ -189,17 +184,15 @@ const App = () => {
               </div>
             )}
 
-            {/* Grilla 1x3 (de imágenes seleccionadas) dentro del rectángulo */}
             {screen > 1 && !gameOver && (
               <div className="selected-images">
                 {selectedImages.map((item, index) => (
-                  <img key={index} src={`./images/${item.image}`} alt={item.image} className={`selected-image ${imageSize === "small" ? "small" : ""}`} />
+                  <img key={index} src={`./download/images/${item.image}`} alt={item.image} className={`selected-image ${imageSize === "small" ? "small" : ""}`} />
                 ))}
               </div>
             )}
           </div>
 
-          {/* Grilla 3x3 con imágenes grandes */}
           {screen === 1 && !gameOver && (
             <div className="grilla">
               <div className="grilla-row">
@@ -214,7 +207,6 @@ const App = () => {
             </div>
           )}
 
-          {/* Grilla 3x3 (segunda pantalla) */}
           {screen === 2 && !gameOver && (
             <div className="grilla">
               <div className="grilla-row">
@@ -229,7 +221,6 @@ const App = () => {
             </div>
           )}
 
-          {/* Grilla 3x3 (tercera pantalla) */}
           {screen === 3 && !gameOver && (
             <div className="grilla">
               <div className="grilla-row">
