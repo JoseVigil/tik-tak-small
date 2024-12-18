@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-const App = () => {
+const App = () => {  
   const [selectedImages, setSelectedImages] = useState([]);
   const [screen, setScreen] = useState(1); 
   const [successfulCombination, setSuccessfulCombination] = useState(null);
