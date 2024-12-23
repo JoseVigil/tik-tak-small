@@ -1,16 +1,23 @@
 {
-    "routes": [
-      {
-        "src": "/download/fonts/(.*)",
-        "dest": "/download/fonts/$1"
-      },
-      {
-        "src": "/download/images/(.*)",
-        "dest": "/download/images/$1"
-      },
-      {
-        "src": "/download/json/(.*)",
-        "dest": "/download/json/$1"
-      }
-    ]
-  }
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "public/download/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/download/(.*)",
+      "dest": "public/download/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ]
+}

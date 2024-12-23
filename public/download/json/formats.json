@@ -1,0 +1,43 @@
+{
+    "statusCode": 200,
+    "result": {
+      "formats": [
+        {
+            "_id": "pz3fqzFH71",
+            "name":"Square",
+            "description":"Instagram Feed, Facebook Feed (Square), Twitter (Square)",
+            "aspect_ratio": "1:1",
+            "disposition": "square",
+            "resolution": "1080x1080 ",
+            "created_at": "2024-12-19T16:19:09.160Z"
+        }, 
+        {
+            "_id": "k4oX1i0rpM",
+            "name":"Vertical",
+            "description":"TikTok, Instagram Stories, Instagram Reels, Facebook Stories, Twitter (Vertical)",
+            "aspect_ratio": "9:16",
+            "disposition": "portrait",
+            "resolution": "1080x1920",
+            "created_at": "2024-12-19T16:19:09.160Z"
+        },
+        {
+            "_id": "fRHRxNr15C",
+            "name":"Landscape",
+            "description":"YouTube, Facebook Feed (Landscape), Twitter (Landscape)",
+            "aspect_ratio": "16:9",
+            "disposition": "landscape ",
+            "resolution": "1920x1080",
+            "created_at": "2024-12-19T16:19:09.160Z"
+        },
+        {
+            "_id": "pnxTkepmj5",
+            "name":"Vertical Feed",
+            "description":"Facebook Feed (Vertical)",
+            "aspect_ratio": "4:5",
+            "disposition": "landscape ",
+            "resolution": "1080x1350",
+            "created_at": "2024-12-19T16:19:09.160Z"
+        }
+      ]
+    }
+  }
