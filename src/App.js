@@ -86,7 +86,7 @@ const App = () => {
     return grilla.map((image, index) => (
       <div key={index} className="image-item">
         <img
-          src={`./download/images/${image}`} // Cambio aquí para la nueva ruta
+          src={`./download/images/${image}`}
           alt={image}
           onClick={() => handleSelectImage(image, index)}
           className="image-button"
@@ -108,17 +108,10 @@ const App = () => {
                       <div key={index} className="image-item">
                         <img
                           key={index}
-                          src={`./download/images/${item.image}`} // Cambio aquí para la nueva ruta
+                          src={`./download/images/${item.image}`}
                           alt={item.image}
                           className="selected-image"
                         />
-                        <a 
-                          href={`./download/images/${item.image}`} 
-                          download
-                          className="download-link"
-                        >
-                          Descargar
-                        </a>
                       </div>
                     ))}
                   </div>
@@ -126,7 +119,7 @@ const App = () => {
                     {imagesGrilla3.map((image, index) => (
                       <div key={index} className="image-item">
                         <img
-                          src={`./download/images/${image}`} // Cambio aquí para la nueva ruta
+                          src={`./download/images/${image}`}
                           alt={image}
                           className="image-button"
                         />
@@ -140,17 +133,10 @@ const App = () => {
                     {selectedImages.map((item, index) => (
                       <div key={index} className="image-item">
                         <img
-                          src={`./download/images/${item.image}`} // Cambio aquí para la nueva ruta
+                          src={`./download/images/${item.image}`}
                           alt={item.image}
                           className="image-button"
                         />
-                        <a 
-                          href={`./download/images/${item.image}`} 
-                          download
-                          className="download-link"
-                        >
-                          Descargar
-                        </a>
                       </div>
                     ))}
                   </div>
