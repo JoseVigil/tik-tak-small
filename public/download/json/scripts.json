@@ -2,7 +2,7 @@
   "scripts": [
     {
         "_id": "abc123contentcreator",
-        "name": "Tu contenido listo en simples pasos",
+        "title": "Tu contenido listo en simples pasos",
         "description": "Guía para crear contenido rápido y efectivo con Small",
         "script": "¿Te lleva horas crear contenido y te cuesta llegar a muchos clics? Con esta nueva plataforma vas a poder convertir tus ideas en contenido impactante en cuestión de minutos. Elegí una plantilla, personalízala a tu estilo sin esfuerzo y listo para subirlo. Usa nuestra aplicación y parece un experto. Planifica, publica y analiza los resultados todo desde un mismo lugar. Menos tiempo de trabajo y más para disfrutar tu tiempo libre. Con Small creás contenido de alta calidad de manera fácil y rápida. Comentá la palabra 'small' y te mando el link para que la pruebes.",
         "created": "12-11-2024 14:00:00",
@@ -62,7 +62,7 @@
     },
     {
       "_id": "difklspelfjsmdk",
-      "name": "Script New Year",
+      "title": "Script New Year",
       "description": "Happy New Year Script",
       "script":"in this year I want to celebrate the happy new year with all of you",
       "created": "12-11-2024 12:10:02",
