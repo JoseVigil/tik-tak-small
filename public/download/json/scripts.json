@@ -2,6 +2,7 @@
   "scripts": [
     {
         "_id": "abc123contentcreator",
+        "idVideo": "6776c4c27a98f418117bf612",
         "title": "Tu contenido listo en simples pasos",
         "description": "Guía para crear contenido rápido y efectivo con Small",
         "script": "¿Te lleva horas crear contenido y te cuesta llegar a muchos clics? Con esta nueva plataforma vas a poder convertir tus ideas en contenido impactante en cuestión de minutos. Elegí una plantilla, personalízala a tu estilo sin esfuerzo y listo para subirlo. Usa nuestra aplicación y parece un experto. Planifica, publica y analiza los resultados todo desde un mismo lugar. Menos tiempo de trabajo y más para disfrutar tu tiempo libre. Con Small creás contenido de alta calidad de manera fácil y rápida. Comentá la palabra 'small' y te mando el link para que la pruebes.",
@@ -29,6 +30,7 @@
       },      
     {
       "_id": "fkjkljfasjdjdaj",
+      "idVideo": "677709797a98f418117bf64f",
       "title": "Tu contenido listo en simples pasos ",
       "description": "Entienda: que existe un software (le diría plataforma para que todos entiendan) capaz de crear contenido para redes rápidamente. Sienta: interés por saber la diferencia con lo ya conocido y acostumbrado a redes.Haga: que se registren en la pagina para ingresar al uso de la plataforma para poder entender más el uso y de qué trata.",
       "script": "Scripts: te lleva horas crear contenido y te cuesta llegar a muchos clicks? Con esta nueva plataforma vas a poder convertir tus ideas en contenido impactante en cuestión de minutos. Elegí una plantilla, personalízala a tu estilo sin esfuerzo y listo para subirlo. Usa nuestra aplicación y parece un experto. Planifica, publica y analiza los resultados todo desde un mismo lugar. Menos tiempo de trabajo y mas para disfrutar tu tiempo libre. Con Small creas contenido de alta calidad de manera fácil y rápida. Comenta la palabra 'small' y te mando el link para que la pruebes",
