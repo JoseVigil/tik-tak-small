@@ -1,83 +1,28 @@
 {
   "scripts": [
     {
-        "_id": "abc123contentcreator",
-        "idVideo": "6776c4c27a98f418117bf612",
-        "title": "Tu contenido listo en simples pasos",
-        "description": "Guía para crear contenido rápido y efectivo con Small",
-        "script": "¿Te lleva horas crear contenido y te cuesta llegar a muchos clics? Con esta nueva plataforma vas a poder convertir tus ideas en contenido impactante en cuestión de minutos. Elegí una plantilla, personalízala a tu estilo sin esfuerzo y listo para subirlo. Usa nuestra aplicación y parece un experto. Planifica, publica y analiza los resultados todo desde un mismo lugar. Menos tiempo de trabajo y más para disfrutar tu tiempo libre. Con Small creás contenido de alta calidad de manera fácil y rápida. Comentá la palabra 'small' y te mando el link para que la pruebes.",
-        "created": "12-11-2024 14:00:00",
-        "teleprompters": [
-          { "time_in_seconds": 0, "message": "¿Te lleva horas crear contenido" },
-          { "time_in_seconds": 5, "message": "y te cuesta llegar a muchos clics?" },
-          { "time_in_seconds": 10, "message": "Con esta nueva plataforma vas a poder" },
-          { "time_in_seconds": 15, "message": "convertir tus ideas en contenido impactante" },
-          { "time_in_seconds": 20, "message": "en cuestión de minutos." },
-          { "time_in_seconds": 25, "message": "Elegí una plantilla," },
-          { "time_in_seconds": 30, "message": "personalízala a tu estilo sin esfuerzo" },
-          { "time_in_seconds": 35, "message": "y listo para subirlo." },
-          { "time_in_seconds": 40, "message": "Usa nuestra aplicación" },
-          { "time_in_seconds": 45, "message": "y parece un experto." },
-          { "time_in_seconds": 50, "message": "Planifica, publica y analiza los resultados" },
-          { "time_in_seconds": 55, "message": "todo desde un mismo lugar." },
-          { "time_in_seconds": 60, "message": "Menos tiempo de trabajo" },
-          { "time_in_seconds": 65, "message": "y más para disfrutar tu tiempo libre." },
-          { "time_in_seconds": 70, "message": "Con Small creás contenido de alta calidad" },
-          { "time_in_seconds": 75, "message": "de manera fácil y rápida." },
-          { "time_in_seconds": 80, "message": "Comentá la palabra 'small'" },
-          { "time_in_seconds": 85, "message": "y te mando el link para que la pruebes." }
-        ]
-      },      
-    {
-      "_id": "fkjkljfasjdjdaj",
-      "idVideo": "677709797a98f418117bf64f",
-      "title": "Tu contenido listo en simples pasos ",
-      "description": "Entienda: que existe un software (le diría plataforma para que todos entiendan) capaz de crear contenido para redes rápidamente. Sienta: interés por saber la diferencia con lo ya conocido y acostumbrado a redes.Haga: que se registren en la pagina para ingresar al uso de la plataforma para poder entender más el uso y de qué trata.",
-      "script": "Scripts: te lleva horas crear contenido y te cuesta llegar a muchos clicks? Con esta nueva plataforma vas a poder convertir tus ideas en contenido impactante en cuestión de minutos. Elegí una plantilla, personalízala a tu estilo sin esfuerzo y listo para subirlo. Usa nuestra aplicación y parece un experto. Planifica, publica y analiza los resultados todo desde un mismo lugar. Menos tiempo de trabajo y mas para disfrutar tu tiempo libre. Con Small creas contenido de alta calidad de manera fácil y rápida. Comenta la palabra 'small' y te mando el link para que la pruebes",
-      "created": "08-11-2024 12:10:02",
-      "teleprompters": [
-        {
-          "time_in_seconds": 5,
-          "message": "¿Alguna vez has sentido que llevas todo tu trabajo en la palma de tu mano? Videos, redes sociales, cuentas... todo a mil por hora."
-        },
-        {
-          "time_in_seconds": 10,
-          "message": "¿Qué pasaría si pudieras simplificarlo todo? Tener un espacio donde grabar, editar y organizar tu contenido sin perder la cabeza."
-        },
-        {
-          "time_in_seconds": 15,
-          "message": "Y, además, llevar tus finanzas contigo, sin complicaciones. Porque el tiempo vale más que el dinero, ¿no?"
-        },
-        {
-          "time_in_seconds": 20,
-          "message": "Quizás ya lo tienes todo resuelto… o tal vez aún estás buscando esa herramienta que haga todo por ti."
-        },
-        {
-          "time_in_seconds": 25,
-          "message": "Sea como sea, a veces solo es cuestión de encontrar lo que realmente necesitas."
-        },
-        {
-          "time_in_seconds": 30,
-          "message": "Descubre cómo puedes hacerlo más fácil. El cambio está a un clic de distancia."
-        }
-      ]
+      "_id": "IvE6i199H6hUlF9JPrJLb0JOyuyslD",
+      "title": "Cómo hacer café dalgona en 1 minuto",
+      "feelings": "Entusiasmo y satisfacción al lograr algo simple y delicioso",
+      "understanding": "El espectador aprenderá a hacer café dalgona de manera rápida y fácil.",
+      "making": "El video se grabará en una cocina bien iluminada, mostrando los ingredientes y pasos en un estilo dinámico. Utilizaremos tomas cercanas y música en tendencia.",
+      "hook": "¿Sabías que puedes hacer un café increíble como este en solo 1 minuto? ¡Mira esto!",
+      "body": "1. Agrega 2 cucharadas de café instantáneo, azúcar y agua caliente en un bol.\n2. Bate vigorosamente (o usa una batidora) hasta que la mezcla esté cremosa.\n3. Llena un vaso con leche fría o caliente y coloca la crema de café encima.\n4. ¡Decóralo con un toque de cacao en polvo o canela, y listo!",
+      "cta": "¿Qué esperas para intentarlo? Etiqueta a tus amigos y muestra tu versión del café dalgona.",
+      "hashtags": "#CaféDalgona #DIY #RecetasFáciles #TikTokCafé",
+      "status": "draft"
     },
     {
-      "_id": "difklspelfjsmdk",
-      "title": "Script New Year",
-      "description": "Happy New Year Script",
-      "script":"in this year I want to celebrate the happy new year with all of you",
-      "created": "12-11-2024 12:10:02",
-      "teleprompters": [
-        { "time_in_seconds": 5, "message": "in" },
-        { "time_in_seconds": 10, "message": "this" },
-        { "time_in_seconds": 15, "message": "year" },
-        { "time_in_seconds": 20, "message": "I want" },
-        { "time_in_seconds": 25, "message": "to celebrate" },
-        { "time_in_seconds": 30, "message": "the happy new" },
-        { "time_in_seconds": 35, "message": "year with" },
-        { "time_in_seconds": 40, "message": "all of you" }
-      ]
+      "_id": "Gt4NhwiVF0Bvzf1LIcH0awsbXRWgGK",
+      "title": "5 tips para cuidar tus plantas en casa",
+      "feelings": "Tranquilidad y conexión con la naturaleza",
+      "understanding": "El espectador aprenderá a cuidar sus plantas de manera efectiva y sencilla.",
+      "making": "El video se grabará en un jardín o balcón, mostrando las plantas y los cuidados explicados. Utilizaremos texto en pantalla para resaltar cada tip.",
+      "hook": "¿Tus plantas no sobreviven? Aquí tienes 5 tips infalibles para cuidarlas como un experto.",
+      "body": "1. Dales la cantidad adecuada de agua según la especie.\n2. Asegúrate de que reciban suficiente luz natural.\n3. Limpia las hojas para que respiren mejor.\n4. Usa fertilizantes orgánicos una vez al mes.\n5. Cambia la maceta cuando sea necesario para evitar raíces apretadas.",
+      "cta": "¿Qué tip te pareció más útil? Déjamelo en los comentarios y comparte este video con tus amigos plant lovers.",
+      "hashtags": "#PlantasEnCasa #TipsDeJardinería #HogarVerde #TikTokPlantas",
+      "status": "draft"
     }
   ]
 }
